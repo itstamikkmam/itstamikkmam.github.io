@@ -1,0 +1,61 @@
+#menu, #game{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: lightblue;
+}
+#menu{
+	z-index: 1;
+	font-weight: 300;
+	font-family: sans serif;
+	text-align: center;
+}
+#menu.hidden{
+	display: none;
+}
+#menu .button{
+	height: 70px;
+	width: 230px;
+	background: blue;
+	margin: auto;
+	margin-top: 20px;
+	color: white;
+	cursor: pointer;
+}
+#menu .button:hover{
+	background: #00C;
+}
+
+#grid{
+	height: 550px;
+	width: 550px;
+	margin: auto;
+}
+.square{
+	height: 100px;
+	width: 100px;
+	background: white;
+	margin: 5px;
+	float: left;
+}
+#player{
+	background: url("https://openclipart.org/image/100px/svg_to_png/191701/cat-silhouette-snowshoe.png&disposition=attachment");
+}
+#heart{
+	background: url("https://openclipart.org/image/100px/svg_to_png/21281/pixabella-Red-Glossy-Valentine-Heart.png&disposition=attachment") no-repeat center;
+}
+#score{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 36px;
+}
+#message{
+	font-weight: 300;
+	font-family: sans serif;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 100px;
+}
